@@ -62,4 +62,10 @@ export const photos_still = [
     width: 1,
     height: 1,
   },
+
+  {
+    src: "./stillImagesbox/PeeblesOfCornwall.jpg",
+    width: 5,
+    height: 3,
+  },
 ];

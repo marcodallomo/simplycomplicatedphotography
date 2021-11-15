@@ -69,4 +69,9 @@ export const photos_random = [
     width: 4,
     height: 3,
   },
+  {
+    src: "./randomImagesbox/GironaByBridge.jpg",
+    width: 5,
+    height: 3,
+  },
 ];
