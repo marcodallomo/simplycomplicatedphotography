@@ -44,7 +44,7 @@ const App = () => {
 
       <Grid ref={introRef} item xs={12} md={4}>
         <div className="intro">
-          <h5 className="chapter"> My name is Marco and I am London based photographer.</h5>
+          <h5 className="chapter"> My name is Marco and I am a London based photographer.</h5>
 
           <h5 className="chapter">I like to create striking images, by capturing the subjet adding my personal touch. </h5>
           <h5 className="chapter">I experiment blending movement with different angles and idle with distinctive colors...</h5>
