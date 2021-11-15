@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -7,6 +7,7 @@ import { gsap } from "gsap";
 
 const Menu = () => {
   let location = useLocation();
+  const [expanded, setExpanded] = useState(false);
 
   const titleRef = useRef();
   const menu1Ref = useRef();
@@ -27,19 +28,19 @@ const Menu = () => {
   }, []);
 
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
+    <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" expanded={expanded}>
       <Container style={{ backgroundColor: "#292b2c", display: "flex", justifyContent: "space-between" }}>
         <Navbar.Brand style={{ fontFamily: "Gluten, cursive", color: "lightblue" }}>
           <h1 ref={titleRef} className="mainTitle">
             Simply Complicated Ph<i class="bi bi-camera2"></i>tography
           </h1>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" style={{ marginBottom: "20px", fontFamily: "Gluten, cursive", backgroundColor: "#292b2c" }}>
             {location.pathname !== "/" && (
               <Link to="/">
-                <h3 style={{ marginRight: "15px" }} ref={menu1Ref} className="tLink">
+                <h3 style={{ marginRight: "15px" }} ref={menu1Ref} className="tLink" onClick={() => setExpanded(false)}>
                   Home
                 </h3>
               </Link>
@@ -47,7 +48,7 @@ const Menu = () => {
 
             {location.pathname !== "/street" && (
               <Link to="/street">
-                <h4 style={{ marginRight: "15px" }} ref={menu2Ref} className="tLink">
+                <h4 style={{ marginRight: "15px" }} ref={menu2Ref} className="tLink" onClick={() => setExpanded(false)}>
                   street
                 </h4>
               </Link>
@@ -55,8 +56,7 @@ const Menu = () => {
 
             {location.pathname !== "/people" && (
               <Link to="/people">
-                <h4 style={{ marginRight: "15px" }} ref={menu3Ref} className="tLink">
-                  {" "}
+                <h4 style={{ marginRight: "15px" }} ref={menu3Ref} className="tLink" onClick={() => setExpanded(false)}>
                   People
                 </h4>
               </Link>
@@ -64,7 +64,7 @@ const Menu = () => {
 
             {location.pathname !== "/stilllife" && (
               <Link to="/stilllife">
-                <h4 style={{ marginRight: "15px" }} ref={menu4Ref} className="tLink">
+                <h4 style={{ marginRight: "15px" }} ref={menu4Ref} className="tLink" onClick={() => setExpanded(false)}>
                   StillLife
                 </h4>
               </Link>
@@ -72,7 +72,7 @@ const Menu = () => {
 
             {location.pathname !== "/random" && (
               <Link to="/random">
-                <h4 style={{ marginRight: "15px" }} ref={menu5Ref} className="tLink">
+                <h4 style={{ marginRight: "15px" }} ref={menu5Ref} className="tLink" onClick={() => setExpanded(false)}>
                   Random
                 </h4>
               </Link>
@@ -80,7 +80,7 @@ const Menu = () => {
 
             {location.pathname !== "/green" && (
               <Link to="/green">
-                <h4 style={{ marginRight: "15px" }} ref={menu6Ref} className="tLink">
+                <h4 style={{ marginRight: "15px" }} ref={menu6Ref} className="tLink" onClick={() => setExpanded(false)}>
                   Green
                 </h4>
               </Link>
