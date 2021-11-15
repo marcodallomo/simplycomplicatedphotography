@@ -1,0 +1,144 @@
+* {
+  background-color: #292b2c;
+}
+html {
+  width: 100%;
+  position: relative;
+  background-color: #292b2c;
+}
+
+body {
+  background-color: #292b2c;
+  color: white;
+
+  font-family: "Gluten, cursive";
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #292b2c;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.soc {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  color: lightblue;
+  cursor: pointer;
+}
+
+.soc2 {
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: 10px;
+  color: lightblue;
+  cursor: pointer;
+}
+
+.rights {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "Gluten, cursive";
+}
+
+.caro {
+  margin-top: 110px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  margin-top: 35px;
+
+  color: white;
+}
+
+.xsLink:hover {
+  color: lightblue;
+}
+
+.galleryDiv {
+  margin-top: 90px;
+}
+
+.intro {
+  font-family: "Raleway", sans-serif;
+  color: lightblue;
+  display: flexbox;
+  justify-content: "center";
+  margin-top: 110px;
+  margin-left: 50px;
+  margin-right: 40px;
+  border: 3px solid rgb(95, 99, 102);
+  padding: 7px;
+  box-shadow: 10px 15px lightblue;
+  border-radius: 8px;
+}
+
+.chapter {
+  margin-bottom: 30px;
+}
+
+.profile {
+  margin: 10px auto;
+}
+
+.tLink:hover {
+  color: lightblue;
+}
+
+.navbar-toggler-icon {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 760px) {
+  .footer {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .intro {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .galleryDiv {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainTitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mainTitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .caro {
+    margin-top: 30px;
+  }
+}
