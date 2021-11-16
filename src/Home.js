@@ -46,7 +46,7 @@ const App = () => {
         <div className="intro">
           <h5 className="chapter"> My name is Marco and I am a London based photographer.</h5>
 
-          <h5 className="chapter">I like to create striking images, by capturing the subjet adding my personal touch. </h5>
+          <h5 className="chapter">I like to create striking images, by capturing the subject while adding my personal touch. </h5>
           <h5 className="chapter">I experiment blending movement with different angles and idle with distinctive colors...</h5>
           <img className="profile" src="./peopleImagesbox/me2.jpg" alt="test" width="80%vw" margingLeft="40px" />
         </div>
