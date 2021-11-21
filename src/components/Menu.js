@@ -49,7 +49,7 @@ const Menu = () => {
             {location.pathname !== "/street" && (
               <Link to="/street">
                 <h4 style={{ marginRight: "15px" }} ref={menu2Ref} className="tLink" onClick={() => setExpanded(false)}>
-                  street
+                  Street
                 </h4>
               </Link>
             )}
