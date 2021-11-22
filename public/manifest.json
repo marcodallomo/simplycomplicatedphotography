@@ -4,7 +4,7 @@
   "background_color": "#2196f3",
   "display": "standalone",
 
-  "start_url": "https://www.simplycomplicated.co.uk",
+  "start_url": "/",
   "icons": [
     {
       "src": "manifest-icon-192.maskable.png",
