@@ -3,8 +3,8 @@
   "theme_color": "#190404",
   "background_color": "#2196f3",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+
+  "start_url": "https://www.simplycomplicated.co.uk",
   "icons": [
     {
       "src": "manifest-icon-192.maskable.png",
