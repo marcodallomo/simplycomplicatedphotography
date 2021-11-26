@@ -36,7 +36,10 @@ const Footer = () => {
         <Contact />
       </span>
       <p ref={icon4Ref} className="rights">
-        © {new Date().getFullYear()} by Marco Dall'Omo
+        © {new Date().getFullYear()} by{" "}
+        <a href="https://www.marcodallomo.com/" target="_blank" rel="noopener noreferrer" className="xsLink">
+          Marco Dall'Omo
+        </a>
       </p>
     </div>
   );
