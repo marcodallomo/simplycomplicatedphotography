@@ -65,6 +65,12 @@ export const photos_random = [
   },
 
   {
+    src: "./randomImagesbox/SeaNostalgia.jpg",
+    width: 1,
+    height: 1,
+  },
+
+  {
     src: "./randomImagesbox/DancingSeagull2021.jpg",
     width: 4,
     height: 3,
