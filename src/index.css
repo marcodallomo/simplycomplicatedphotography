@@ -140,5 +140,8 @@ a:active {
 @media only screen and (max-width: 600px) {
   .caro {
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80% vw;
   }
 }

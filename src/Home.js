@@ -16,11 +16,11 @@ const App = () => {
 
   return (
     <Grid container spacing={4}>
-      <Grid item xs={12} md={12} lg={1}>
+      <Grid item xs={1} lg={1}>
         <p></p>
       </Grid>
 
-      <Grid ref={carouselRef} item xs={12} md={7}>
+      <Grid ref={carouselRef} item xs={10} md={7}>
         <Carousel className="caro" fade indicators={false} controls={false} pause={false} interval={5000}>
           <Carousel.Item>
             <img className="d-block w-80" src="./peopleImagesbox/Food4ThoughtsPrint.jpg" alt="" />
