@@ -16,6 +16,10 @@ const App = () => {
 
   return (
     <Grid container spacing={4}>
+      <Grid item xs={12} lg={0}>
+        <p></p>
+      </Grid>
+
       <Grid item xs={1} lg={1}>
         <p></p>
       </Grid>
