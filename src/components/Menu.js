@@ -36,7 +36,7 @@ const Menu = () => {
           </h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
-        Menu
+
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" style={{ marginBottom: "20px", fontFamily: "Gluten, cursive", backgroundColor: "#292b2c" }}>
             {location.pathname !== "/" && (
