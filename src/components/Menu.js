@@ -32,10 +32,11 @@ const Menu = () => {
       <Container style={{ backgroundColor: "#292b2c", display: "flex", justifyContent: "space-between" }}>
         <Navbar.Brand style={{ fontFamily: "Gluten, cursive", color: "lightblue" }}>
           <h1 ref={titleRef} className="mainTitle">
-            Simply Complicated Ph<i class="bi bi-camera2"></i>tography
+            Simply Complicated Ph<i className="bi bi-camera2"></i>tography
           </h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
+        Menu
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" style={{ marginBottom: "20px", fontFamily: "Gluten, cursive", backgroundColor: "#292b2c" }}>
             {location.pathname !== "/" && (
