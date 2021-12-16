@@ -24,7 +24,7 @@ export const photos_still = [
   },
 
   {
-    src: "./stillImagesbox/MeleCollage.jpg",
+    src: "./stillImagesbox/melecollage.jpg",
     width: 4,
     height: 3,
   },
