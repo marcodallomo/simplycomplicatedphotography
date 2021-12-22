@@ -44,6 +44,12 @@ export const photos_street = [
   },
 
   {
+    src: "./streetImagesbox/rumble.jpg",
+    width: 1,
+    height: 1,
+  },
+
+  {
     src: "./streetImagesbox/RunToYou2014.jpg",
     width: 5,
     height: 3,
