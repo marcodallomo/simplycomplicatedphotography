@@ -4,6 +4,11 @@ export const photos_green = [
     width: 4,
     height: 3,
   },
+  {
+    src: "./greenImagesbox/orbitflowers.jpg",
+    width: 4,
+    height: 3,
+  },
 
   {
     src: "./greenImagesbox/WatchingBlueSky.jpg",
