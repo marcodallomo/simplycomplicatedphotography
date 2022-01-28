@@ -64,6 +64,18 @@ export const photos_still = [
   },
 
   {
+    src: "./stillImagesbox/caramelle.jpg",
+    width: 1,
+    height: 1,
+  },
+
+  {
+    src: "./stillImagesbox/CaramelleCollage.jpg",
+    width: 1,
+    height: 1,
+  },
+
+  {
     src: "./stillImagesbox/PeeblesOfCornwall.jpg",
     width: 5,
     height: 3,
