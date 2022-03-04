@@ -31,9 +31,9 @@ const Menu = () => {
     <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" expanded={expanded}>
       <Container style={{ backgroundColor: "#292b2c", display: "flex", justifyContent: "space-between" }}>
         <Navbar.Brand style={{ fontFamily: "Gluten, cursive", color: "lightblue", width: "30%" }}>
-          <h2 ref={titleRef} className="mainTitle">
+          <h1 ref={titleRef} className="mainTitle">
             Simply Complicated Ph<i className="bi bi-camera2"></i>tography
-          </h2>
+          </h1>
         </Navbar.Brand>
 
         <Navbar.Toggle style={{ fontSize: "15px", color: "lightblue", border: "none" }} aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}>
