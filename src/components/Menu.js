@@ -35,8 +35,10 @@ const Menu = () => {
             Simply Complicated Ph<i className="bi bi-camera2"></i>tography
           </h1>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
 
+        <Navbar.Toggle style={{ fontSize: "15px", color: "lightblue", border: "none" }} aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}>
+          Menu<span className="menuIcon">☰</span>
+        </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" style={{ marginBottom: "20px", fontFamily: "Gluten, cursive", backgroundColor: "#292b2c" }}>
             {location.pathname !== "/" && (

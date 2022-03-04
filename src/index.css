@@ -103,19 +103,25 @@ a:active {
   color: lightblue;
 }
 
-.navbar-toggler-icon {
-  font-size: 10px;
-  animation: move 5s infinite forwards linear;
+.navbar-toggler {
+  width: 90px;
 }
 
-@keyframes move {
-  from {
-    transform: rotate(0deg);
+.menuIcon {
+  animation: cool 7s infinite both linear;
+  display: inline-block;
+}
+
+@keyframes cool {
+  0% {
+    transform: rotateY(0deg);
   }
-  to {
-    transform: rotate(360deg);
-    border: 2px solid yellow;
-    scale: 1.1;
+  50% {
+    transform: rotateY(180deg) translate(-5px);
+    scale: 1.2;
+  }
+  100% {
+    transform: rotateY(30deg);
   }
 }
 
