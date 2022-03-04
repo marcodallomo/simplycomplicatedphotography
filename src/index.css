@@ -151,7 +151,7 @@ a:active {
 
 @media only screen and (max-width: 400px) {
   .mainTitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
