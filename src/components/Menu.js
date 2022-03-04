@@ -30,7 +30,7 @@ const Menu = () => {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" expanded={expanded}>
       <Container style={{ backgroundColor: "#292b2c", display: "flex", justifyContent: "space-between" }}>
-        <Navbar.Brand style={{ fontFamily: "Gluten, cursive", color: "lightblue", width: "30%" }}>
+        <Navbar.Brand style={{ fontFamily: "Gluten, cursive", color: "lightblue" }}>
           <h1 ref={titleRef} className="mainTitle">
             Simply Complicated Ph<i className="bi bi-camera2"></i>tography
           </h1>
