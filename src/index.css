@@ -145,13 +145,13 @@ a:active {
 
 @media only screen and (max-width: 600px) {
   .mainTitle {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .mainTitle {
-    font-size: 4.5vw;
+    font-size: 4vw;
   }
 }
 
