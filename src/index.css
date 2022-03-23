@@ -81,6 +81,10 @@ a:active {
   margin-right: auto;
 }
 
+.mainTitle {
+  text-shadow: 2px 3px rgb(117, 129, 236);
+}
+
 .intro {
   font-family: "Raleway", sans-serif;
   color: lightblue;
