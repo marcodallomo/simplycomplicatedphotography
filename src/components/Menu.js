@@ -36,7 +36,7 @@ const Menu = () => {
           </h1>
         </Navbar.Brand>
 
-        <Navbar.Toggle style={{ fontSize: "18px", color: "lightblue", border: "none" }} aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}>
+        <Navbar.Toggle style={{ fontSize: "18px", color: "lightblue", border: "none", marginRight: "10px" }} aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}>
           Menu<span className="menuIcon">☰</span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
