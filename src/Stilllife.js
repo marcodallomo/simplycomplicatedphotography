@@ -31,7 +31,7 @@ function Stilllife() {
 
   return (
     <div ref={galleryRef} className="galleryDiv" style={{ backgroundColor: "#292b2c" }}>
-      <Gallery photos={photos_still} onClick={openLightbox} />
+      <Gallery margin={4} photos={photos_still} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>

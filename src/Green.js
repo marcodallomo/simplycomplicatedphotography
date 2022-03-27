@@ -31,7 +31,7 @@ function Green() {
 
   return (
     <div ref={galleryRef} className="galleryDiv" style={{ backgroundColor: "#292b2c" }}>
-      <Gallery photos={photos_green} onClick={openLightbox} />
+      <Gallery margin={4} photos={photos_green} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
