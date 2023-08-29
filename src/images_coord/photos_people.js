@@ -48,7 +48,7 @@ export const photos_people = [
   {
     src: "./peopleImagesbox/DenizFlowers.jpg",
     width: 3,
-    height: 4,
+    height: 4ç,
   },
 
   {
