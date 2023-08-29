@@ -45,6 +45,11 @@ export const photos_people = [
     width: 5,
     height: 3,
   },
+  {
+    src: "./peopleImagesbox/DenizFlowers.jpg",
+    width: 3,
+    height: 4,
+  },
 
   {
     src: "./peopleImagesbox/Deniz_Peluche2.jpg",
